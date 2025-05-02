@@ -13,8 +13,7 @@ public class Studente {
     }
 
     public String getStudentsInfo(){
-        String info;
-        return info = "Studente con nome: "+ name+" "+surname+" eta: "+age;
+        return "Studente con nome: "+ name+" "+surname+" eta: "+age;
     }
 
 }
