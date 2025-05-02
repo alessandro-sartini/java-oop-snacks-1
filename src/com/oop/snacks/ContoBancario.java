@@ -21,7 +21,7 @@ public class ContoBancario {
     }
 
     public void withdraw(BigDecimal removeCredit) {
-        if (removeCredit.compareTo(BigDecimal.ZERO) > 0 && removeCredit.compareTo(this.balance) <= 0) {
+        if (removeCredit.compareTo(BigDecimal.ZERO) > 0 && removeCredit.compareTo(balance) <= 0) {
             this.balance = balance.subtract(removeCredit);
         } else {
             System.out.println("Il saldo non e' disponibile");
