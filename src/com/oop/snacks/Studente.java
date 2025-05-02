@@ -12,7 +12,7 @@ public class Studente {
         this.age=age;
     }
 
-    public String getStudentsInfo(){
+    public String getStudentInfo(){
         return "Studente con nome: "+ name+" "+surname+" eta: "+age;
     }
 
