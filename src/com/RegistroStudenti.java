@@ -34,6 +34,10 @@ public class RegistroStudenti {
         return results;
     }
 
-
+   
+    @Override
+    public String toString() {
+        return String.format("Registro con %d studenti", this.getAllStudents());
+    }
 
 }

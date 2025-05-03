@@ -21,6 +21,7 @@ public class Main {
         register.addStudents(s1);
         register.addStudents(s2);
         System.out.println(register.getAllStudents());
+     
 
     }
 }
